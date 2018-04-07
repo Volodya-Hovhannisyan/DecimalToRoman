@@ -11,7 +11,7 @@ private:
 	const std::map<int, std::string> comp; 
 	std::string str;
 public:
-	Convert(int);
+	Convert(int = 0);
 	void ConvertToRoman();  
 	void Show();
 	const std::string & GetRoman();
